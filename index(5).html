@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poorvi Shetty | Personal Website</title>
+
+  <style>
+    :root {
+      --primary: #2563eb;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #1f2937;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #1e40af;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery div {
+      background: #e5e7eb;
+      height: 150px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #374151;
+    }
+
+    footer {
+      background: #1e40af;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .contact p {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Poorvi Shetty</h1>
+  <p>Student | Tech Enthusiast | Creative Learner</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Me</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <div class="card">
+    <h2>Home</h2>
+    <p>
+      Welcome to my personal website!  
+      I am Poorvi Shetty, passionate about learning new technologies,
+      participating in social activities, and developing creative skills.
+    </p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="card">
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Poorvi Shetty</p>
+    <p><strong>Education:</strong> Student</p>
+    <p><strong>Skills:</strong> HTML, CSS, Basics of Web Development</p>
+    <p><strong>Social Activities:</strong></p>
+    <ul>
+      <li>Participating in college events</li>
+      <li>Volunteering for social programs</li>
+      <li>Teamwork and group activities</li>
+    </ul>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="card">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <div>Image 1</div>
+      <div>Image 2</div>
+      <div>Image 3</div>
+      <div>Image 4</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> poorvi@example.com</p>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+    <p><strong>Social Media:</strong></p>
+    <p>Instagram | LinkedIn | GitHub</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Poorvi Shetty | Personal Website</p>
+</footer>
+
+</body>
+</html>
